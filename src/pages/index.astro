@@ -2,16 +2,23 @@
 import Layout from "../layouts/Layout.astro";
 import Navbar from "../components/Navbar.astro";
 import Header from "../components/Header.astro";
+import WebsiteList from "../components/WebsiteList.astro";
 ---
 
 <Layout title="Collection of Collections">
   <Navbar />
   <Header />
+  <main>
+    <WebsiteList />
+  </main>
 </Layout>
 
 <style is:global>
   body {
-    > .header {
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+
+    > :not(:first-child) {
       margin-top: 2rem;
     }
   }

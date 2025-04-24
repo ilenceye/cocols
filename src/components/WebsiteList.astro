@@ -1,0 +1,60 @@
+---
+import { getCollection } from "astro:content";
+import slugify from "@sindresorhus/slugify";
+
+function getScreenshotPath(href: string) {
+  const fileName = slugify(new URL(href).hostname);
+  return `img/websites/${fileName}.png`;
+}
+
+const websites = await getCollection("websites");
+---
+
+<div class="website-list">
+  {
+    websites.map((website) => (
+      <div class="website">
+        <img
+          src={getScreenshotPath(website.data.url)}
+          alt=""
+          class="website__img"
+        />
+        <a href={website.data.url} class="website__title">
+          {website.data.title}
+        </a>
+      </div>
+    ))
+  }
+</div>
+
+<style is:global>
+  .website-list {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .website {
+    position: relative;
+
+    .website__title {
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .website__img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .website__title {
+    color: var(--color);
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+    }
+  }
+</style>
