@@ -1,13 +1,25 @@
-<nav class="nav">
-  <a href="/" class="nav__menuLink">Col-of-Cols</a>
-</nav>
+<div class="nav-wrapper">
+  <nav class="nav">
+    <a href="/" class="nav__menuLink">Col-of-Cols</a>
+  </nav>
+</div>
 
 <style is:global>
+  .nav-wrapper {
+    padding-top: 1rem;
+    margin-inline: -0.5rem;
+
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  }
+
   .nav {
     background-color: #e2e2e2ab;
     color: var(--color);
     border-radius: 9999px;
     padding: 0.4rem;
+    backdrop-filter: blur(2rem);
 
     display: flex;
   }
