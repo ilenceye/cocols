@@ -21,7 +21,27 @@ const { title } = Astro.props;
 </html>
 
 <style is:global>
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  :root {
+    --bg-color: #fff;
+    --color: #000;
+  }
+
   html {
     font-family: system-ui, sans-serif;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--color);
   }
 </style>
