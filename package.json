@@ -3,12 +3,15 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "setup": "node scripts/take-screenshots.js",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.7.5"
+    "@sindresorhus/slugify": "2.2.1",
+    "astro": "^5.7.5",
+    "capture-website": "4.2.0"
   }
 }
