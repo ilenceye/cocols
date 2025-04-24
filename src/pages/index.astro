@@ -1,8 +1,18 @@
 ---
-import Navbar from "../components/Navbar.astro";
 import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Header from "../components/Header.astro";
 ---
 
 <Layout title="Collection of Collections">
   <Navbar />
+  <Header />
 </Layout>
+
+<style is:global>
+  body {
+    > .header {
+      margin-top: 2rem;
+    }
+  }
+</style>
