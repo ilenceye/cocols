@@ -1,47 +1,170 @@
 [
   {
-    "id": 1,
+    "id": "af813b63-87bf-472a-8f4f-7afd1e3a9a14",
     "url": "https://letsgetcreative.today/",
-    "title": "Let's Get Creative"
+    "title": "Let's Get Creative",
+    "description": "A collection of high-quality, free, online creativity tools."
   },
   {
-    "id": 2,
+    "id": "9958ea60-8388-4ff7-94c3-419653a4cca0",
     "url": "https://www.siteinspire.com/",
-    "title": "Siteinspire"
+    "title": "Siteinspire",
+    "description": "A showcase of the web’s finest design + talent."
   },
   {
-    "id": 3,
+    "id": "c2b32aa6-234e-49cc-b400-5243fea00008",
     "url": "https://land-book.com/",
-    "title": "Landbook"
+    "title": "Landbook",
+    "description": "Website design inspiration gallery"
   },
   {
-    "id": 4,
+    "id": "13177035-6902-42f2-8e37-12ba6091abf4",
     "url": "https://indiesread.it/",
-    "title": "IndiesReadIt"
+    "title": "IndiesReadIt",
+    "description": "Find out what successful entrepreneurs actually read."
   },
   {
-    "id": 5,
+    "id": "9759adc0-89ad-4a77-808b-e8cbd3b2921b",
     "url": "https://coffee.electerious.com/",
-    "title": "Coffee Table"
+    "title": "Coffee Table",
+    "description": "Curated coffee collection."
   },
   {
-    "id": 6,
+    "id": "a436dda9-61b3-46f5-9740-e6ff2213165d",
     "url": "https://openalternative.co/",
-    "title": "OpenAlternative"
+    "title": "OpenAlternative",
+    "description": "Open Source Alternatives to Popular Software."
   },
   {
-    "id": 7,
+    "id": "43f900b7-1e94-4e01-a10e-c07e3c3b1f37",
     "url": "https://laudableapps.com/",
-    "title": "LaudableApps"
+    "title": "LaudableApps",
+    "description": "A collection of beautiful IOS apps."
   },
   {
-    "id": 8,
+    "id": "0ef7dcae-5f0d-43bd-bd76-b52f6b985b33",
     "url": "https://copybook.me/",
-    "title": "Copy Book"
+    "title": "Copy Book",
+    "description": "这是一个产品中常用文案的集合。"
   },
   {
-    "id": 9,
+    "id": "dd3ee8b6-84ee-4f57-9877-21fb424a27f6",
     "url": "https://readsom.com/",
-    "title": "Readsom"
+    "title": "Readsom",
+    "description": "这个网站收集了很多高质量有趣的 Newsletter。"
+  },
+  {
+    "id": "27c788aa-33a2-4444-a9ff-20cbe1cc2e32",
+    "url": "https://httpster.net/",
+    "title": "Httpster",
+    "description": "Website Design Inspiration"
+  },
+  {
+    "id": "28240a53-2018-4932-b515-92462c010883",
+    "url": "https://shortcuts.design/",
+    "title": "Shortcuts.design",
+    "description": "Every shortcut for designers in one place."
+  },
+  {
+    "id": "06e535ea-edc4-4280-bbd1-ecf16ed9c1b4",
+    "url": "https://smalldev.tools/",
+    "title": "SmallDev.tools",
+    "description": "一个开发者会用的一些小工具集。"
+  },
+  {
+    "id": "54cc35dc-79d1-4afd-a28c-b7cc74c8a4b1",
+    "url": "https://untools.co/",
+    "title": "Untools",
+    "description": "Tools for better thinking."
+  },
+  {
+    "id": "d6ecc910-d959-47dc-b6b8-d0b25127a21c",
+    "url": "https://512kb.club/",
+    "title": "512KB Club",
+    "description": "A showcase of lightweight websites."
+  },
+  {
+    "id": "609982ad-543c-4bd9-abd4-2bbde2b45c2b",
+    "url": "https://1mb.club/",
+    "title": "1MB Club",
+    "description": "A collection of web pages weighing in less than 1MB."
+  },
+  {
+    "id": "2e2875c8-94e0-4507-b005-52ba7514afdb",
+    "url": "https://www.checklist.design/",
+    "title": "Checklist Design",
+    "description": "A collection of the best design practices."
+  },
+  {
+    "id": "59f5767f-d8bc-4924-b30b-2e417f4a1295",
+    "url": "https://100daystooffload.com/",
+    "title": "100 Days To Offload",
+    "description": "你一年能在你的博客上发表 100 篇文章吗？挑战在一年内在个人博客上发布 100 篇文章。"
+  },
+  {
+    "id": "47703118-2480-4574-bb54-f7ef00d7ba44",
+    "url": "https://uses.tech/",
+    "title": "/uses",
+    "description": "A list of /uses pages detailing developer setups, gear, software and configs."
+  },
+  {
+    "id": "11608732-5898-4fd7-9698-667bd0bfcdcf",
+    "url": "https://prompts.chat/",
+    "title": "prompts.chat",
+    "description": "Awesome AI prompts."
+  },
+  {
+    "id": "c73aaae5-e1e9-4d4f-8e03-a1d0c3ef88da",
+    "url": "https://aboutideasnow.com/",
+    "title": "About Ideas Now",
+    "description": "The /about, /ideas and /now pages of 3296 personal websites."
+  },
+  {
+    "id": "9a55a533-15fd-415a-98fd-6faa8073696e",
+    "url": "https://websiteheadlines.com/",
+    "title": "Website Headlines",
+    "description": "A collection of standout website headlines."
+  },
+  {
+    "id": "8302b766-d060-40bb-9dcd-9706077a3879",
+    "url": "https://minimal.gallery/",
+    "title": "Minimal Gallery",
+    "description": "Hand-picked website inspiration."
+  },
+  {
+    "id": "44d187d0-e2ee-4543-9c26-4e41f550c8a2",
+    "url": "https://tech-blogs.dev/list",
+    "title": "Awesome Tech Blogs",
+    "description": "A list of Tech Blogs."
+  },
+  {
+    "id": "659154f3-00f4-4865-84cc-a363cf4f6eca",
+    "url": "https://personalsit.es/",
+    "title": "PersonalSit.es",
+    "description": "This site was built to share and revel in each others’ personal sites."
+  },
+  {
+    "id": "dd074107-a23f-4f26-9c46-3e5def6eb1ca",
+    "url": "https://publicapis.dev/",
+    "title": "Public APIs",
+    "description": "A Collaborative List Of 1400+ Public APIs For Developers."
+  },
+  {
+    "id": "4ccd5a06-7c7b-49c1-bb1e-374ad0dfde61",
+    "url": "https://devresourc.es/",
+    "title": "Dev Resources",
+    "description": "A Collaborative List Of 800+ Resources For Developers."
+  },
+  {
+    "id": "081eb568-555d-41a7-ac00-34525fea9358",
+    "url": "https://designresourc.es/",
+    "title": "Design Resources",
+    "description": "The ultimate collection of digital design resources."
+  },
+  {
+    "id": "e979f48f-dc9b-48ad-980d-04af461dbec3",
+    "url": "https://whimsical.club/",
+    "title": "The Whimsical Web",
+    "description": "A curated list of websites that spark joy."
   }
 ]

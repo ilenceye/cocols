@@ -4,7 +4,7 @@ import { defineCollection, z } from "astro:content";
 const websites = defineCollection({
   loader: file("data/websites.json"),
   schema: z.object({
-    id: z.number(),
+    id: z.string(),
     url: z.string(),
     title: z.string(),
   }),
