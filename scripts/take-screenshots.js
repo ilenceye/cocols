@@ -12,7 +12,19 @@ async function takeScreenshots(sites) {
     // Lazy capturing
     // if the screenshot already exists, skip capturing
     if (!fs.existsSync(outputFilePath)) {
-      await captureWebsite.file(site.url, outputFilePath);
+      try {
+        await captureWebsite.file(site.url, outputFilePath, {
+          timeout: 30,
+          type: "jpeg",
+          quality: 0.5,
+        });
+      } catch (error) {
+        console.error(
+          `Error capturing screenshot for ${site.url}:`,
+          error.message
+        );
+        continue;
+      }
     }
   }
 }
@@ -36,9 +48,9 @@ function getWebsitesData() {
 }
 
 //
-function main() {
+async function main() {
   const websites = getWebsitesData();
-  takeScreenshots(websites);
+  await takeScreenshots(websites);
   console.log(`Finished taking screenshots for ${websites.length} websites.`);
 }
 
