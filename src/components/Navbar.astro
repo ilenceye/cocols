@@ -1,31 +1,24 @@
-<div class="nav-wrapper">
-  <nav class="nav">
-    <a href="/" class="nav__menuLink">Cocols</a>
-  </nav>
-</div>
+<nav class="nav">
+  <a href="/" class="nav__menu-link">Cocols</a>
+</nav>
 
 <style is:global>
-  .nav-wrapper {
-    padding-top: 1rem;
-    margin-inline: -0.5rem;
-
-    position: sticky;
-    top: 0px;
-    z-index: 10;
-  }
-
   .nav {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    z-index: 10;
     background-color: #e2e2e2ab;
     color: var(--color);
     border-radius: 9999px;
     padding: 0.4rem;
     backdrop-filter: blur(2rem);
-
-    display: flex;
   }
 
-  .nav__menuLink {
+  .nav__menu-link {
     color: inherit;
+    display: inline-block;
     padding: 0.6rem 1.5rem;
     border-radius: 9999px;
 
