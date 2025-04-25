@@ -1,9 +1,22 @@
 <header class="header">
-  <h1>Collection of Collections</h1>
+  <h1 class="header__title">Collection of Collections</h1>
 </header>
 
 <style is:global>
   .header {
     text-align: center;
+
+  .header__title {
+    font-family: Manrope, sans-serif;
+    font-size: clamp(3.6rem, calc(1.29231rem + 6.15385vw), 7.2rem);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 1.1875;
+  }
+
+  @media screen and (min-width: 90em) {
+    .header__title {
+      font-size: clamp(7.2rem, calc(4.11429rem + 2.14286vw), 9.6rem);
+    }
   }
 </style>
